@@ -1,4 +1,4 @@
-@import "../responsive.scss";
+@import "../../responsive.scss";
 
 .homePage{
   display: flex;
@@ -60,6 +60,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    background-color: #fcf5f3;
 
     @include md{
       display: none;

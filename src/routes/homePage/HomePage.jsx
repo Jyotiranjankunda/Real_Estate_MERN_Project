@@ -1,6 +1,6 @@
 import React from 'react';
 import './homePage.scss';
-import SearchBar from '../components/searchBar/SearchBar';
+import SearchBar from '../../components/searchBar/SearchBar';
 
 const HomePage = () => {
   return (
@@ -29,7 +29,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className='imageContainer'>
-        <img src='../../public/bg.png' alt='' />
+        <img src='/bg.png' alt='' />
       </div>
     </div>
   );

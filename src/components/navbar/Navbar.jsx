@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div className='left'>
         <a href='/' className='logo'>
-          <img src='../../../public/logo.png' alt='' />
+          <img src='/logo.png' alt='' />
           <span>DreamHomes Properties</span>
         </a>
         <a href='/'>Home</a>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
         <div className='menuIcon'>
           <img
-            src='../../../public/menu.png'
+            src='/menu.png'
             alt=''
             onClick={() => setOpen((prev) => !prev)}
           />
