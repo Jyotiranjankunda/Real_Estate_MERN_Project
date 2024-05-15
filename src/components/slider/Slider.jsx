@@ -3,7 +3,6 @@ import './slider.scss';
 
 const Slider = ({ images }) => {
   const [imageIndex, setImageIndex] = useState(null);
-  console.log(imageIndex)
   const changeSlide = (direction) => {
     if (direction === 'left') {
       setImageIndex((index) => (index === 0 ? images.length - 1 : index - 1));
@@ -26,7 +25,7 @@ const Slider = ({ images }) => {
             <img src='/arrow.png' className='right' alt='' />
           </div>
           <div className='close' onClick={() => setImageIndex(null)}>
-            X
+            &#10005;
           </div>
         </div>
       )}
